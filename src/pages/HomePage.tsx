@@ -53,7 +53,7 @@ const HomePage = () => {
           type="text"
           value={query}
           onChange={(event) => setQuery(event.target.value)}
-          placeholder="e.g. College Park"
+          placeholder="Search a city, e.g. College Park"
           className="w-full border rounded px-3 py-2"
         />
 
